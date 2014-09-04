@@ -16,3 +16,8 @@ header h2 small {
 	color: white;
 	font-weight: normal;
 }
+
+/* drop cap */
+p:first-child:first-letter {
+	color: #1C758A;
+}

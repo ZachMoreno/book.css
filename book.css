@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+* {
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: Open Sans, Helvetica, Arial;
+    color: #333;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+
+header,
+main {
+	width: 50%;
+	height: 100%;
+	padding: 20px;
+	background-color: transparent;
+}
+
+header {
+	float: left;
+}
+
+header h1 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+
+main {
+	float: right;
+	overflow-y: scroll;
+}
